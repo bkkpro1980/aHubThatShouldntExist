@@ -33,7 +33,7 @@ if game.PlaceId == 16979692959 or game.PlaceId == 17082917597 then
 	local MainTab = Window:CreateTab("Main", 4483362458) -- Title, Image
 
 	local Button = MainTab:CreateButton({
-		Name = "Button Example",
+		Name = "Get Guns",
 		Callback = function()
 			--[[Polica or RTA by Bkkpro1980]]--
 			if game.Teams:FindFirstChild("Head Developer") then
