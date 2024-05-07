@@ -2,7 +2,7 @@ if game.PlaceId == 16979692959 or game.PlaceId == 17082917597 then
 
 	local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-	setclipboard("https://link-center.net/1172072/key")
+	setclipboard("https://link-center.net/1172072/key1")
 
 	local Window = Rayfield:CreateWindow({
 		Name = "Bkk's hub that has shouldn't exist",
