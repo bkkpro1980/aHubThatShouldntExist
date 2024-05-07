@@ -1,29 +1,17 @@
 if game.PlaceId == 16979692959 or game.PlaceId == 17082917597 then
 
 	local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
 	setclipboard("https://link-center.net/1172072/key")
-	Rayfield:Notify({
-		Title = "Linkvertise Key",
-		Content = "Linkvertise Key Copied To Clipboard!",
-		Duration = 6.5,
-		Image = 4483362458,
-		Actions = { -- Notification Buttons
-			Ignore = {
-				Name = "Okay",
-				Callback = function()
-					print("The user tapped Okay")
-				end
-			},
-		},
-	})
+
 	local Window = Rayfield:CreateWindow({
 		Name = "Bkk's hub that has shouldn't exist",
 		LoadingTitle = "Rayfield Interface Suite",
 		LoadingSubtitle = "by Bkkpro1980",
 		ConfigurationSaving = {
 			Enabled = true,
-			FolderName = nil, -- Create a custom folder for your hub/game
-			FileName = "BkkHub"
+			FolderName = "BkkHub", -- Create a custom folder for your hub/game
+			FileName = "BkkFile"
 		},
 		Discord = {
 			Enabled = false,
@@ -34,8 +22,8 @@ if game.PlaceId == 16979692959 or game.PlaceId == 17082917597 then
 		KeySettings = {
 			Title = "Bkk's Key System",
 			Subtitle = "Key System",
-			Note = "Ask Owner Lmao",
-			FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+			Note = "Key Link Copied To Clipboard!",
+			FileName = "BkkKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
 			SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
 			GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 			Key = {"Key-BlahBlahBlah-05-06-2024"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
