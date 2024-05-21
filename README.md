@@ -5,6 +5,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/bkkpro1980/aHubThatSh
 ```
 
 Ver: 1.41
-changed key, fixed system in Navy thingy ._.
+
+Update: changed key, fixed system in Navy thingy ._.
 
 Key changes every update :D
