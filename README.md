@@ -1,7 +1,7 @@
 just a hub i made for some reason
 
 ```
-loadstring(game:HttpGet('https://raw.githubusercontent.com/bkkpro1980/aHubThatShouldntExist/main/Main.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/bkkpro1980/aHubThatShouldntExist/main/Main.luau'))()
 ```
 
 Ver: 1.51
